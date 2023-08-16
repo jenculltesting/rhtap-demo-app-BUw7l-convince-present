@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-i40m
     spec:
       containers:
-      - image: quay.io/jentesting/rhtap-demo-acqm-tenant/rhtap-demo-app/hacbs-test-project-i40m@sha256:a875404de90422079598a7365803b236d606511ebbab0c1382bbbc23e97c8a5a
+      - image: quay.io/jentesting/rhtap-demo-acqm-tenant/rhtap-demo-app/hacbs-test-project-i40m@sha256:c1a13115e50b9d94674d74c9a14af47b051627d9ae4d7bba4a83d49718a5aad6
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
