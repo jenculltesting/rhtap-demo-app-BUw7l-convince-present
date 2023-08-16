@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-i40m
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/jentesting/rhtap-demo-acqm-tenant/rhtap-demo-app/hacbs-test-project-i40m@sha256:a875404de90422079598a7365803b236d606511ebbab0c1382bbbc23e97c8a5a
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
